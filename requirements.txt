@@ -1,7 +1,0 @@
-streamlit>=1.50
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-statsmodels
