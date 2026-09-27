@@ -17,11 +17,11 @@ st.set_page_config(page_title="ShopEase Analytics | Group 011_023_048", layout="
 sns.set_theme(style="whitegrid", palette="deep")
 
 GROUP_ID = "011_023_048"
-SEED = int("".join(str(int(p)) for p in GROUP_ID.split("_")))       # 112348
+SEED = 112348
 SAMPLE_SIZE = 2500
 ALPHA = 0.05
 # live data link - raw GitHub link of shopease_raw_orders.csv
-DATA_URL = "https://raw.githubusercontent.com/<your-username>/<your-repo>/main/shopease_raw_orders.csv"
+DATA_URL = "https://github.com/arkapravadey-dev/shopease-analytics-dashboard/blob/main/shopease_raw_orders.csv"
 VALID_DISC = np.array([0.0, 0.05, 0.10, 0.15, 0.20])   # the only discount levels ShopEase uses
 
 
